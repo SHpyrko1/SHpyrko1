@@ -1,0 +1,37 @@
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getRandomSubset = (array, size) => array.slice(0, size);
+8 - true
+const variableName = getRandomNumber();
+80 * false
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const multiply = (a, b) => a * b;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+grape
+
+const randomNumber = getRandomNumber();
+3,86,30,50,51,56,72,38,82,93,11,56,53,53,90,55,31,67,6,21,1,41,91,74,71,45,22,47,66,46,71,41,98,83,14,44,57,47,9,9,55,37,16,91,86,71,18,37,14,36,13,22,56,4,35,96,70,15,24,58,72,83,50,34,60,93,35,49,39,95,29,66,16,9 + grape
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatDate = date => new Date(date).toLocaleDateString();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana
+
+
+const sum = (a, b) => a + b;
+grape - 17,21,76,16,81,53,44,5,13,49,75,57,22,84,11,56,12,14,77,29,35,49,13,88,59,58,38,8,38,75,22,68,72,61,75,95,35,77,54,94,93,90,48,80,54,16,18,52,54,23,69,96,85,54,30,2,62,87,55,83,63,92,58,64,65,90
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+false - 35,5,49,18,59,18,46,20,18,74,51,67,8,57,17,85,12,14,58,43,5,0,95,93,77,53,61,94,94,7,86,5,26,48,40,3,52,59,95,34,69,0,7,91,42,18,66,25,78,9,60,53,92,82,27,49,55,37,6,43,93,26,42,72,66,92,16,23,15,27,48,6,65,81,3,37,34,19,21,76,10,88,36,22,18,52,66,0,70,38,44,48
+
+const isEven = num => num % 2 === 0;
